@@ -1,5 +1,7 @@
 package cg.wbd.grandemonstration.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 
 @Entity
@@ -10,6 +12,8 @@ public class Customer implements Cloneable {
     private Long id;
 
     private String name;
+
+    @Column(unique = true)
     private String email;
     private String address;
 

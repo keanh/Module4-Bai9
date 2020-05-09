@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="quan-ly-khach-hang">
+    <output-path>$PROJECT_DIR$/out/artifacts/quan_ly_khach_hang</output-path>
+    <root id="root">
+      <element id="archive" name="quan_ly_khach_hang.jar">
+        <element id="module-output" name="quan-ly-khach-hang" />
+      </element>
+    </root>
+  </artifact>
+</component>
